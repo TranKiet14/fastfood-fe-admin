@@ -1,0 +1,56 @@
+.header-admin{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    padding: 0;
+    &__logo{
+        width: 240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid #ddd ;
+        transition: all 0.2s;
+        color: #236fd9;
+        font-size: 24px;
+        font-weight: 800;
+        &--collapsed{
+            width: 80px;
+            transition: all 0.2s;
+        }
+    }
+    &__nav{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex: 1;
+        &-left{
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+        }
+        &-right{
+            width: 20%;
+        }
+    }
+    &__collapse{
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    &__account{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.content {
+    padding: 20px;
+    background: #fff;
+}
+.footer {
+    background: #464548;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+}
